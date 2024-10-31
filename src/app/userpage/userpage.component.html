@@ -1,0 +1,11 @@
+<h2>Pond Management</h2>
+<div class="pond-cards">
+  <div class="pond-card" *ngFor="let pond of ponds">
+    <div class="card-content">
+      <img [src]="pond.image" alt="{{ pond.name }}" class="pond-image" />
+      <h3>{{ pond.name }}</h3>
+      <p>{{ pond.description }}</p>
+      <button routerLink="/sensor-management">View Sensors</button>
+    </div>
+  </div>
+</div>

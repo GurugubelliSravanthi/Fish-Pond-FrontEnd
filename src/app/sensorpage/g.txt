@@ -1,0 +1,51 @@
+i want to connect this sprinfgboot code with angular 
+i m using standalone angular 18 app.....there is no app.module.ts......
+routing should be done in app.route.ts
+these list of pond should be shown on my webpage for example there are two ponds and those 2 ponds have sensor vlaues differently 
+
+
+{
+  "pondId": 1,
+  "pondName": "Pond B",
+  "ph": 7.5,
+  "rain": 15.2,
+  "waterLevel": 5.3,
+  "oxygen": 8.1,
+  "temperature": 23.0
+}
+
+
+{
+  "pondId": 1,
+  "pondName": "Pond B",
+  "ph": 7.5,
+  "rain": 15.8,
+  "waterLevel": 5.6,
+  "oxygen": 8.1,
+  "temperature": 23.9
+}
+
+
+{
+  "pondId": 2
+  "pondName": "Pond B",
+  "ph": 7.5,
+  "rain": 15.2,
+  "waterLevel": 8.3,
+  "oxygen": 8.1,
+  "temperature": 270
+}
+
+
+{
+  "pondId": 2,
+  "pondName": "Pond B",
+  "ph": 7.5,
+  "rain": 16.2,
+  "waterLevel": 5.3,
+  "oxygen": 8.1,
+  "temperature": 23.0
+}
+
+if uh look at the above data i have 2 ponds 1 2 with names pond A and pond B
+each of these ponds have 2 diffarent type of sensors data so we have to show list of ponds that is 2 ponds on the web page and when i click on pond 1 ..pond 1 latest data should be shown on sensor page 
